@@ -1,0 +1,99 @@
+html, body {
+height: 100%; /* Garante que o body ocupe toda a altura da tela */
+margin: 0; /* Remove a margem padrão do body */
+padding: 0; /* Remove o padding padrão do body */
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove o scroll */
+}
+
+body {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+background: #0026bd url(imagens/360_F_404208667_XDH4dx6SUcI95TiAp1s2qQCCxZSq7G1U.jpg) no-repeat top center;
+background-size: cover; /* Faz o fundo cobrir toda a tela */
+}
+
+#container {
+width: 400px;
+height: 300px;
+background-color: rgba(65, 63, 173, 0.3);
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+margin: 0 auto;
+margin-top: 320px;
+text-align: center;
+}
+
+#container img {
+width: 120px;
+height: 120px;
+margin-top: -60px;
+margin-bottom: 30px;
+}
+
+input {
+height: 40px;
+width: 80%;
+font-size: 18px;
+margin-bottom: 10px;
+background-color: #fff;
+padding-left: 40px;
+border: none;
+background-repeat: no-repeat;
+background-position: 10px;
+}
+input.submit {
+color: #fff;
+background-color: #000000;
+border: 2px solid #000000;
+padding: 5px 20px;
+height: 45px;
+width: 90%;
+background: -webkit-linear-gradient(to bottom, #000000, #000000);
+background: -moz-linear-gradient(to bottom, #000000, #000000);
+background: -o-linear-gradient(to bottom, #000000, #000000);
+background: linear-gradient(to bottom, #000000, #000000);
+}
+
+.whats{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background-image: url(imagens/azul.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.whats a {
+    width: 100%;
+    height: 100%;
+}
+
+.whats:hover {
+    transition: 0.8s;
+    background-image: url(imagens/verde.svg);
+    background-repeat: no-repeat;
+}
+
+.git{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    bottom: 80px;
+    background: url(imagens/git.svg);
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+}
+
+    .git:hover {
+        transition: 0.8s;
+        background-image: url(imagens/git2.svg);
+        background-repeat: no-repeat;
+    }
